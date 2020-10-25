@@ -69,7 +69,7 @@ docker ps -a
 ```
 8. Update pip
 ```
-pip3 install --upgrade pi
+pip3 install --upgrade pip
 ```
 9. Check if the latest pip3 version is installed
 ```

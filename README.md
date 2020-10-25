@@ -121,3 +121,5 @@ After executing the test command you should see something like this in terminal:
 
 You can navigate the duckiebot using the built in arrow buttons.
 
+## Implementing residual learning policy by Reinforcement Learning
+### tbd

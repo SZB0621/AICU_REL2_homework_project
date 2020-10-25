@@ -101,3 +101,4 @@ export DISPLAY=:$SLURM_JOB_ID
 python3 ./manual_control.py --env-name Duckietown-udem1-v0
 ```
 following these commands you should see something like this in terminal:
+![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/image.png?raw=true)

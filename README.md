@@ -115,6 +115,8 @@ sudo dnf install freeglut-devel
 
 After executing the test command you should see something like this in terminal:
 
+![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/image2.png?raw=true)
+
 
 You can navigate the duckiebot using the built in arrow buttons.
 

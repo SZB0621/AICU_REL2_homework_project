@@ -13,8 +13,7 @@ We used and existing duckietown simulation environment, gym-duckietown which was
   year = {2018},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/duckietown/gym-duckietown}},
-}
+  howpublished = {\url{https://github.com/duckietown/gym-duckietown}},}
 '''
 
 ### Setting up the environment

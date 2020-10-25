@@ -43,63 +43,61 @@ To creat the necessary docker container you have to follow the commands in the f
 docker pull duckietown/gym-duckietown
 ```
 
-2. docker ps -a
+2. List all of the existing docker images, check that the one you pulled is here
 ```
 docker ps -a
 ```
-3. docker start <CONTAINER ID of the pull-ed repo>
+3. Run a container of the pulled base image
+```
+docker start <CONTAINER ID of the pull-ed repo>
+```
+4. Now your container is running, check it
+```
+docker ps
+```
+5. Start using the container
+```
+docker exec -it <CONTAINER ID of the pull-ed repo> /bin/bash
+```
+6. Update ubuntu's  Advanced Packaging Tool (APT)
+```
+apt update
+```
+7. Install pip
 ```
 docker ps -a
 ```
-4. docker ps
+8. Update pip
 ```
-docker ps -a
+pip3 install --upgrade pi
 ```
-5. docker exec -it <CONTAINER ID of the pull-ed repo> /bin/bash
+9. Check if the latest pip3 version is installed
 ```
-docker ps -a
+pip3 --version
 ```
-6. apt update
+10. Install the gym-duckietown's packages, first cd into the diractory where 'setup.py' file is located
 ```
-docker ps -a
+pip3 install -e . (in the directory where 'setup.py' is located)
 ```
-7. apt install python3-pip (press y)
+11. Running the simulator headless (in docker or via SSH) requires virtual frame buffer
 ```
-docker ps -a
+apt-get install xvfb mesa-utils -y
 ```
-8. pip3 install --upgrade pi
+12. Install pip, git and git-lfs
 ```
-docker ps -a
+apt install -y python3-pip git git-lfs
 ```
-9. pip3 --version
+13. Install pkg-config and libfontconfig1-dev to start the simulation
 ```
-docker ps -a
+apt-get install pkg-config libfontconfig1-dev
 ```
-10. pip3 install -e . (in the directory where 'setup.py' is located)
+14. Create a virtual display with OpenGL support 
 ```
-docker ps -a
+Xvfb :1 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
+export DISPLAY=:$SLURM_JOB_ID
 ```
-11. apt-get install xvfb mesa-utils -y
+15. Test the simulator
 ```
-docker ps -a
+python3 ./manual_control.py --env-name Duckietown-udem1-v0
 ```
-12. apt install -y python3-pip git git-lfs
-```
-docker ps -a
-```
-13. apt-get install pkg-config libfontconfig1-dev
-```
-docker ps -a
-```
-14. Xvfb :1 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
-```
-docker ps -a
-```
-15. export DISPLAY=:1
-```
-docker ps -a
-```
-16. python3 ./manual_control.py --env-name Duckietown-udem1-v0
-```
-docker ps -a
-```
+following these commands you should see something like this in terminal:

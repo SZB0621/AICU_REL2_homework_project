@@ -4,7 +4,7 @@ gitHub repository of team AICU. We collect the data here for the REL2 homework p
 Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks (https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
 
 
-## The first step was to creat the simulation environment for the autonomous Duckiebot
+## The first step was to create the simulation environment for the autonomous Duckiebot
 We used and existing duckietown simulation environment, gym-duckietown which was written in pure python/OpenGL (Pyglet).
 
 ```
@@ -37,7 +37,7 @@ We used and existing duckietown simulation environment, gym-duckietown which was
 
 #### Commands:
 
-To creat the necessary docker container you have to follow the commands in the file: env_setup.txt.
+To create the necessary docker container you have to follow the commands in the file: env_setup.txt.
 1. Pull the provided docker image
 ```
 docker pull duckietown/gym-duckietown
@@ -105,7 +105,7 @@ following these commands you should see something like this in terminal(this is 
 ![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/image.png?raw=true)
 
 #### Commands 2:
-Executing the installs and package updates above in a vitual machine (for exemple: VirtualBox - Ubuntu:18.04) the following points aren't necessary : 1-5,11-14, and some commands require authorization you should use 'sudo' when executing them. 
+Executing the installations and package updates above in a virtual machine (for exemple: VirtualBox - Ubuntu:18.04) the following points aren't necessary : 1-5,11-14, and some commands require authorization you should use 'sudo' when executing them. 
 
 Depending on the Ubuntu image you may have to install glut as well with the following command:
 ```

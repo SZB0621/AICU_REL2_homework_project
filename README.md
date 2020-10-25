@@ -6,7 +6,8 @@ Our goal is to achive an accurate lane-following algorithom using the baseline a
 
 ## The first step was to creat the simulation environment for the autonomous Duckiebot
 We used and existing duckietown simulation environment, gym-duckietown which was written in pure python/OpenGL (Pyglet).
-'''@misc{gym_duckietown,
+'''
+@misc{gym_duckietown,
   author = {Chevalier-Boisvert, Maxime and Golemo, Florian and Cao, Yanjun and Mehta, Bhairav and Paull, Liam},
   title = {Duckietown Environments for OpenAI Gym},
   year = {2018},

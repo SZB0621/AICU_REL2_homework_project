@@ -38,19 +38,68 @@ We used and existing duckietown simulation environment, gym-duckietown which was
 #### Commands:
 
 To creat the necessary docker container you have to follow the commands in the file: env_setup.txt.
-1. docker pull duckietown/gym-duckietown
+1. Pull the provided docker image
+```
+docker pull duckietown/gym-duckietown
+```
+
 2. docker ps -a
+```
+docker ps -a
+```
 3. docker start <CONTAINER ID of the pull-ed repo>
+```
+docker ps -a
+```
 4. docker ps
+```
+docker ps -a
+```
 5. docker exec -it <CONTAINER ID of the pull-ed repo> /bin/bash
+```
+docker ps -a
+```
 6. apt update
+```
+docker ps -a
+```
 7. apt install python3-pip (press y)
+```
+docker ps -a
+```
 8. pip3 install --upgrade pi
+```
+docker ps -a
+```
 9. pip3 --version
+```
+docker ps -a
+```
 10. pip3 install -e . (in the directory where 'setup.py' is located)
+```
+docker ps -a
+```
 11. apt-get install xvfb mesa-utils -y
+```
+docker ps -a
+```
 12. apt install -y python3-pip git git-lfs
+```
+docker ps -a
+```
 13. apt-get install pkg-config libfontconfig1-dev
+```
+docker ps -a
+```
 14. Xvfb :1 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
+```
+docker ps -a
+```
 15. export DISPLAY=:1
+```
+docker ps -a
+```
 16. python3 ./manual_control.py --env-name Duckietown-udem1-v0
+```
+docker ps -a
+```

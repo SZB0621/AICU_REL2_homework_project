@@ -16,7 +16,7 @@ We used and existing duckietown simulation environment, gym-duckietown which was
 }>
 
 ### Setting up the environment
-####The setup requires the following components:
+#####The setup requires the following components:
 
 - Docker
 - Python 3.6+
@@ -33,4 +33,4 @@ We used and existing duckietown simulation environment, gym-duckietown which was
 - dataclasses (if using Python3.6)
 - PyTorch or Tensorflow (to use the scripts in learning/)
 
-####
+#####Commands:

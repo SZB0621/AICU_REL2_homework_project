@@ -100,6 +100,21 @@ export DISPLAY=:$SLURM_JOB_ID
 ```
 python3 ./manual_control.py --env-name Duckietown-udem1-v0
 ```
-following these commands you should see something like this in terminal:
+following these commands you should see something like this in terminal(this is a headless mode):
 
 ![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/image.png?raw=true)
+
+#### Commands 2:
+Executing the installs and package updates above in a vitual machine (for exemple: VirtualBox - Ubuntu:18.04) the following points aren't necessary : 1-5,11-14, and some commands require authorization you should use 'sudo' when executing them. 
+
+Depending on the Ubuntu image you may have to install glut as well with the following command:
+```
+sudo apt-get install freeglut3-dev0
+sudo dnf install freeglut-devel
+```
+
+After executing the test command you should see something like this in terminal:
+
+
+You can navigate the duckiebot using the built in arrow buttons.
+

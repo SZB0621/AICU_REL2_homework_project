@@ -1,7 +1,7 @@
 # AICU_REL2_homework_project
 gitHub repository of team AICU. We collect the data here for the REL2 homework project for the "Deep learning a gyakorlatban Python és LUA alapon" subject. Team members: Ungvárszky Balázs, Moró Márton, Szabó Bence.
 
-Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided in Duckietown and AIDO (https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
+Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks (https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
 
 
 ## The first step was to creat the simulation environment for the autonomous Duckiebot

@@ -121,5 +121,23 @@ After executing the test command you should see something like this in terminal:
 
 You can navigate the duckiebot using the built in arrow buttons.
 
-## Implementing residual learning policy by Reinforcement Learning
-### tbd
+## Implementing Lane following with Reinforcement Learning
+
+### Start Training the baseline Policy
+#### Extra requirements
+##### Software components
+
+- CUDA10.2+ (or CUDA11)
+
+##### Hardware components
+
+- optimal:
+  - more than 8GB RAM
+  - recent graphic card
+- enough:
+  - recent CPU
+  - more than 8GB RAM
+  
+#### Commands:
+
+tbd

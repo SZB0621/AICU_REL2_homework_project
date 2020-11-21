@@ -65,7 +65,7 @@ apt update
 ```
 7. Install pip
 ```
-docker ps -a
+apt install python3-pip
 ```
 8. Update pip
 ```

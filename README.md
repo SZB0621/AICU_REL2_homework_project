@@ -140,29 +140,35 @@ You can navigate the duckiebot using the built in arrow buttons.
   
 #### Commands:
 
-Clone this repo from github
+1. Clone the repo from github which contains the baseline algorithm for the Lane Following challange
 
 ```
 git clone https://github.com/duckietown/challenge-aido_LF-baseline-RL-sim-pytorch
 ```
-Change into the directory:
+2. Go into the directory
 ```
 cd challenge-aido_LF-baseline-RL-sim-pytorch
 ```
-Install this package:
+3. Install the necessary packages:
 ```
 pip3 install -e .
 ```
-And the gym-duckietown package:
+4. Now install the gym-duckietown packages:
 ```
 pip3 install -e git://github.com/duckietown/gym-duckietown.git@daffy#egg=gym-duckietown
 ```
-Change into the duckietown_rl directory and run the training script
+5. Go into the directory where thje training scripts are located and run them
 ```
 cd duckietown_rl
 python3 -m scripts.train_cnn.py --seed 123
 ```
-When it finishes, try it out (make sure you pass in the same seed as the one passed to the training script)
+6. When it finishes, test your results in simulation 
 ```
 python3 -m scripts.test_cnn.py --seed 123
 ```
+After executing the training commands you should see something like this:
+
+![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/image4.png?raw=true)
+
+It is visible that the policy is being trained but the rewards are really huge, the following task is hyperparameter optimalization.
+After that our agent will be able to stay between the lines with a much higher chance.

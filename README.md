@@ -140,22 +140,29 @@ You can navigate the duckiebot using the built in arrow buttons.
   
 #### Commands:
 
+Clone this repo from github
+
 ```
 git clone https://github.com/duckietown/challenge-aido_LF-baseline-RL-sim-pytorch
 ```
+Change into the directory:
 ```
 cd challenge-aido_LF-baseline-RL-sim-pytorch
 ```
+Install this package:
 ```
 pip3 install -e .
 ```
+And the gym-duckietown package:
 ```
 pip3 install -e git://github.com/duckietown/gym-duckietown.git@daffy#egg=gym-duckietown
 ```
+Change into the duckietown_rl directory and run the training script
 ```
 cd duckietown_rl
 python3 -m scripts.train_cnn.py --seed 123
 ```
+When it finishes, try it out (make sure you pass in the same seed as the one passed to the training script)
 ```
 python3 -m scripts.test_cnn.py --seed 123
 ```

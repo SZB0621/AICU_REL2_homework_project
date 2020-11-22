@@ -123,7 +123,6 @@ You can navigate the duckiebot using the built in arrow buttons.
 
 ## Implementing Lane following with Reinforcement Learning
 
-
 ### Start Training the baseline Policy
 #### Extra requirements
 ##### Software components
@@ -137,8 +136,10 @@ You can navigate the duckiebot using the built in arrow buttons.
   - recent graphic card
 - enough:
   - recent CPU
-  - more than 8GB RAM
+  - 8GB RAM
   
 #### Commands:
 
-tbd
+```
+git clone https://github.com/duckietown/challenge-aido_LF-baseline-RL-sim-pytorch
+```

@@ -175,3 +175,5 @@ Test window:
 
 It is visible that the policy is being trained but the rewards are really huge, the following task is hyperparameter optimalization.
 After that our agent will be able to stay between the lines with a much higher chance.
+
+## Optimising the algorithm parameters 

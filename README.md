@@ -170,5 +170,8 @@ After executing the training commands you should see something like this:
 
 ![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/image4.png?raw=true)
 
+Test window:
+![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/image5.png?raw=true)
+
 It is visible that the policy is being trained but the rewards are really huge, the following task is hyperparameter optimalization.
 After that our agent will be able to stay between the lines with a much higher chance.

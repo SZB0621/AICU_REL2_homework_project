@@ -123,6 +123,7 @@ You can navigate the duckiebot using the built in arrow buttons.
 
 ## Implementing Lane following with Reinforcement Learning
 
+
 ### Start Training the baseline Policy
 #### Extra requirements
 ##### Software components

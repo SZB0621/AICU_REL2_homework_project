@@ -143,3 +143,19 @@ You can navigate the duckiebot using the built in arrow buttons.
 ```
 git clone https://github.com/duckietown/challenge-aido_LF-baseline-RL-sim-pytorch
 ```
+```
+cd challenge-aido_LF-baseline-RL-sim-pytorch
+```
+```
+pip3 install -e .
+```
+```
+pip3 install -e git://github.com/duckietown/gym-duckietown.git@daffy#egg=gym-duckietown
+```
+```
+cd duckietown_rl
+python3 -m scripts.train_cnn.py --seed 123
+```
+```
+python3 -m scripts.test_cnn.py --seed 123
+```

@@ -1,8 +1,19 @@
 # AICU_REL2_homework_project
 gitHub repository of team AICU. We collect the data here for the REL2 homework project for the "Deep learning a gyakorlatban Python és LUA alapon" course. Team members: Ungvárszky Balázs, Moró Márton, Szabó Bence.
 
-Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks (https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
+Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks 
+(https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
 
+## Table of Contents
+- [Setting up the Environment](https://github.com/SZB0621/AICU_REL2_homework_project#the-first-step-was-to-create-the-simulation-environment-for-the-autonomous-duckiebot)
+  - [Requirements for the environment](https://github.com/SZB0621/AICU_REL2_homework_project#the-setup-requires-the-following-components)
+  - [Commands for the setup](https://github.com/SZB0621/AICU_REL2_homework_project#commands)
+  - [Commands for Virtual Machine](https://github.com/SZB0621/AICU_REL2_homework_project#commands-2)
+- [Lane following with Reinforcement Learning](https://github.com/SZB0621/AICU_REL2_homework_project#implementing-lane-following-with-reinforcement-learning)
+  - [Training the policy](https://github.com/SZB0621/AICU_REL2_homework_project#start-training-the-baseline-policy)
+  - [Requirements for the Training](https://github.com/SZB0621/AICU_REL2_homework_project#extra-requirements)
+  - [Commands to start the training](https://github.com/SZB0621/AICU_REL2_homework_project#commands-1)
+- [Optimatization](https://github.com/SZB0621/AICU_REL2_homework_project#optimising-the-algorithm-parameters)
 
 ## The first step was to create the simulation environment for the autonomous Duckiebot
 We used and existing duckietown simulation environment, gym-duckietown which was written in pure python/OpenGL (Pyglet).

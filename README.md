@@ -1,5 +1,5 @@
 # AICU_REL2_homework_project
-gitHub repository of team AICU. We collect the data here for the REL2 homework project for the "Deep learning a gyakorlatban Python és LUA alapon" course. Team members: Ungvárszky Balázs, Moró Márton, Szabó Bence.
+gitHub repository of team AICU. We collect the data here for the REL2 homework project for the "Deep learning a gyakorlatban Python és LUA alapon" course. Team members: Ungvárszky Balázs (Final semester on BME BSC, writing final thesis and having final exams soon), Moró Márton, Szabó Bence (Final semester on BME BSC, writing final thesis and having final exams soon).
 
 Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks 
 (https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
@@ -187,9 +187,11 @@ Test window:
 The training looks like this in Docker:
 ![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/image6.png?raw=true)
 
-It is visible that the policy is being trained but the rewards are really huge, the following task is hyperparameter optimalization.
+It is visible that the policy is being trained but the rewards are really negative, the following task is hyperparameter optimalization.
 After that our agent will be able to stay between the lines with a much higher chance.
 
 ## Optimising the algorithm parameters 
 
-TBD
+After seeing the results of this basic training script with DDPG policy we moved on  to use other toolboxes as we didn't recieve good results. The following frameworks were tested:
+ - Stable Baselines 3
+ - TensorForce

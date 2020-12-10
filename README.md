@@ -1,5 +1,9 @@
 # AICU_REL2_homework_project
-gitHub repository of team AICU. We collect the data here for the REL2 homework project for the "Deep learning a gyakorlatban Python és LUA alapon" course. Team members: Ungvárszky Balázs (Final semester on BME BSC, writing final thesis and having final exams soon), Moró Márton, Szabó Bence (Final semester on BME BSC, writing final thesis and having final exams soon).
+gitHub repository of team AICU. We collect the data here for the REL2 homework project for the "Deep learning a gyakorlatban Python és LUA alapon" course. 
+Team members: 
+- Ungvárszky Balázs (Final semester on BME BSC, writing final thesis and having final exams soon), 
+- Moró Márton, 
+- Szabó Bence (Final semester on BME BSC, writing final thesis and having final exams soon).
 
 Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks 
 (https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 

@@ -22,7 +22,7 @@ Team members:
   - [Stable baselines solution](https://github.com/SZB0621/AICU_REL2_homework_project#stable-baselines-solution)
   - [What's next?](https://github.com/SZB0621/AICU_REL2_homework_project#whats-next)
   
-  ![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/duckwithsantahat.jpg)
+
 
 ## Documentation
 
@@ -267,4 +267,4 @@ There are some requirements regarding our jupyter project, all of them is discus
  We will create executable python files for every feature in the jupyter notebook and a dockerfile so that it will be possible to test our project in the real Duckietown-gym environment and execute it with better computing capacity. We intend to test it on a dedicated computer as well.
 
 
-
+ ![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/duckwithsantahat.jpg)

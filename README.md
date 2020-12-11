@@ -21,7 +21,7 @@ Our goal is to achive an accurate lane-following algorithom using the baseline a
   - [Training the policy](https://github.com/SZB0621/AICU_REL2_homework_project#start-training-the-baseline-policy)
   - [Requirements for the Training](https://github.com/SZB0621/AICU_REL2_homework_project#extra-requirements)
   - [Commands to start the training](https://github.com/SZB0621/AICU_REL2_homework_project#commands-1)
-- [Optimatization](https://github.com/SZB0621/AICU_REL2_homework_project#optimising-the-algorithm-parameters)
+- [Optimising the algorithm parameters ](https://github.com/SZB0621/AICU_REL2_homework_project#optimising-the-algorithm-parameters)
 
 ## The first step was to create the simulation environment for the autonomous Duckiebot
 We used and existing duckietown simulation environment, gym-duckietown which was written in pure python/OpenGL (Pyglet).
@@ -206,9 +206,13 @@ The following frameworks were tested:
  - Stable Baselines 3
  - TensorForce
  
+ ### Chosing the right framework
+ 
  We executed several tests and read the documentations of both frameworks and we decided to follow up with Stable Baselines 3. The main reason behind this decision was that SB3 provided several RL algorithms (PPO,DDPG,A2C...), there was an optimizer tool implemented already (Optuna) and this framework used up the least amount of computing capacity.
  
  So we converted all of our previous work inside Stable Baselines 3 framework. The other main change to our project was that we executed and develped the whole project in google collaboratory. This was a necessary step because of the lack of GPU capacity from our side.
+ 
+ ### Stable Baselines solution
  
  Stable Baselines:
  
@@ -231,11 +235,20 @@ arXiv:1907.10902 [cs.LG]
 
 The executable jupyter notebook is stored in this file: [TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_0](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_1.ipynb)
 
-In the notebook you can find the section about:
- - Installingt the necessary packages
- - importing requierements
- - Creating optimizer and tester functions (i.e.: CallBacks, optimize_ppo/a2c, pruner, pickle, evaluation...)
- - Creating models and training policies
- - Plotting the optimizer results, with the given hyperparameters
+There are some requirements regarding our jupyter project, all of them is discussed and installed/imported in the code in [TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_0](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_1.ipynb)
+
+#### Features in the notebook
+
+ - Installingt the requirements
+ - importing the requierements
+ - Pptimizer and tester functions (i.e.: CallBacks, optimize_ppo/a2c, pruner, pickle, evaluation...)
+ - Models and training policies
+ - Plots about the optimizer results, with the given hyperparameters
+ 
+ 
+ ### What's next?
+ 
+ We will create executable python files for every feature in the jupyter notebook and a dockerfile so that it will be possible to test our project in the real Duckietown-gym environment and execute it with better computing capacity. We intend to test it on a dedicated computer as well.
+
 
 

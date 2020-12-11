@@ -228,9 +228,9 @@ The following frameworks were tested:
  
  So we converted all of our previous work inside Stable Baselines 3 framework. The other main change to our project was that we executed and develped the whole project in google collaboratory. This was a necessary step because of the lack of GPU capacity from our side.
  
- ### Stable Baselines solution
+ ### Stable Baselines 3 solution
  
- Stable Baselines:
+ Stable Baselines 3:
  
  ```
  @misc{stable-baselines,

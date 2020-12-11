@@ -1,9 +1,13 @@
-# AICU_REL2_homework_project
+# AICU REL2 homework project
 gitHub repository of team AICU. We collect the data here for the REL2 homework project for the "Deep learning a gyakorlatban Python és LUA alapon" course. 
 Team members: 
 - Ungvárszky Balázs (Final semester on BME BSC, writing final thesis and having final exams soon), 
 - Moró Márton, 
 - Szabó Bence (Final semester on BME BSC, writing final thesis and having final exams soon).
+
+## Documentation
+
+The description of the Project, the Learning algorithms and the optimizer algorithm can be found in the [Documentation](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/Documentation.pdf) file.
 
 Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks 
 (https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
@@ -204,7 +208,7 @@ The following frameworks were tested:
  
  We executed several tests and read the documentations of both frameworks and we decided to follow up with Stable Baselines 3. The main reason behind this decision was that SB3 provided several RL algorithms (PPO,DDPG,A2C...), there was an optimizer tool implemented already (Optuna) and this framework used up the least amount of computing capacity.
  
- So we converted all of our previous work inside Stable Baselines 3 framework. The other main change to our project was that we executed and develped the whole project in google collaboratory. This was a neccessary step because of the lack of GPU capacity from our side.
+ So we converted all of our previous work inside Stable Baselines 3 framework. The other main change to our project was that we executed and develped the whole project in google collaboratory. This was a necessary step because of the lack of GPU capacity from our side.
  
  Stable Baselines:
  
@@ -225,8 +229,13 @@ Optuna:
 arXiv:1907.10902 [cs.LG]
 ```
 
-The description of the Project, the Learning algorithms and the optimizer algorithm can be found in the [Documentation](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/Documentation.pdf) file.
+The executable jupyter notebook is stored in this file: [TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_0](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_1.ipynb)
 
-The executable jupyter notebook is stored in thisfile: [TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_0](https://github.com/SZB0621/AICU_REL2_homework_project#the-setup-requires-the-following-components)
+In the notebook you can find the section about:
+ - Installingt the necessary packages
+ - importing requierements
+ - Creating optimizer and tester functions (i.e.: CallBacks, optimize_ppo/a2c, pruner, pickle, evaluation...)
+ - Creating models and training policies
+ - Plotting the optimizer results, with the given hyperparameters
 
 

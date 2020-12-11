@@ -22,6 +22,9 @@ Our goal is to achive an accurate lane-following algorithom using the baseline a
   - [Requirements for the Training](https://github.com/SZB0621/AICU_REL2_homework_project#extra-requirements)
   - [Commands to start the training](https://github.com/SZB0621/AICU_REL2_homework_project#commands-1)
 - [Optimising the algorithm parameters ](https://github.com/SZB0621/AICU_REL2_homework_project#optimising-the-algorithm-parameters)
+  - [Chosing the right framework](https://github.com/SZB0621/AICU_REL2_homework_project#chosing-the-right-framework)
+  - [Stable baselines solution](https://github.com/SZB0621/AICU_REL2_homework_project#stable-baselines-solution)
+  - [What's next?](https://github.com/SZB0621/AICU_REL2_homework_project#whats-next)
 
 ## The first step was to create the simulation environment for the autonomous Duckiebot
 We used and existing duckietown simulation environment, gym-duckietown which was written in pure python/OpenGL (Pyglet).

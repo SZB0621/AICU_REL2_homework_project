@@ -138,7 +138,7 @@ You can navigate the duckiebot using the built in arrow buttons.
 
 ## Implementing Lane following with Reinforcement Learning
 
-### Start Training the baseline Policy
+### Start Training the baseline Policy (Duckietown's baseline algorithm with DDPG)
 #### Extra requirements
 ##### Software components
 
@@ -196,6 +196,35 @@ After that our agent will be able to stay between the lines with a much higher c
 
 ## Optimising the algorithm parameters 
 
-After seeing the results of this basic training script with DDPG policy we moved on  to use other toolboxes as we didn't recieve good results. The following frameworks were tested:
+After seeing the results of this basic training script with DDPG policy we moved on  to use other toolboxes as we didn't recieve good results and this training script turned out to be very difficult to customize.
+
+The following frameworks were tested:
  - Stable Baselines 3
  - TensorForce
+ 
+ We executed several tests and read the documentations of both frameworks and we decided to follow up with Stable Baselines 3. The main reason behind this decision was that SB3 provided several RL algorithms (PPO,DDPG,A2C...), there was an optimizer tool implemented already (Optuna) and this framework used up the least amount of computing capacity.
+ 
+ So we converted all of our previous work inside Stable Baselines 3 framework. The other main change to our project was that we executed and develped the whole project in google collaboratory. This was a neccessary step because of the lack of GPU capacity from our side.
+ 
+ Stable Baselines:
+ 
+ ```
+ @misc{stable-baselines,
+  author = {Hill, Ashley and Raffin, Antonin and Ernestus, Maximilian and Gleave, Adam and Kanervisto, Anssi and Traore, Rene and Dhariwal, Prafulla and Hesse, Christopher and Klimov, Oleg and Nichol, Alex and Plappert, Matthias and Radford, Alec and Schulman, John and Sidor, Szymon and Wu, Yuhuai},
+  title = {Stable Baselines},
+  year = {2018},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/hill-a/stable-baselines}},
+}
+```
+
+
+Optuna:
+```
+arXiv:1907.10902 [cs.LG]
+```
+
+The description of the Project, the Learning algorithms and the optimizer algorithm can be found in the Documentatin.pdf file.
+
+The executable jupyter notebook is stored in thisfile: [TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_0] (https://github.com/SZB0621/AICU_REL2_homework_project#the-setup-requires-the-following-components)

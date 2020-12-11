@@ -6,9 +6,9 @@ Team members:
 - Szabó Bence (Final semester on BME BSC, writing final thesis and having final exams soon).
 
 ## Table of Contents
-- [Documentation]()
- - [Abstract]()
- - [Összefoglaló]()
+- [Documentation](https://github.com/SZB0621/AICU_REL2_homework_project#documentation)
+ - [Abstract](https://github.com/SZB0621/AICU_REL2_homework_project#abstract)
+ - [Összefoglaló](https://github.com/SZB0621/AICU_REL2_homework_project#összefoglaló)
 - [Setting up the Environment](https://github.com/SZB0621/AICU_REL2_homework_project#the-first-step-was-to-create-the-simulation-environment-for-the-autonomous-duckiebot)
   - [Requirements for the environment](https://github.com/SZB0621/AICU_REL2_homework_project#the-setup-requires-the-following-components)
   - [Commands for the setup](https://github.com/SZB0621/AICU_REL2_homework_project#commands)
@@ -34,6 +34,8 @@ Our goal is to achive an accurate lane-following algorithom using the baseline a
 This paper describes two solutions to the Duckietown lane following challenge using deep reinforcement learning. In our case Duckietown is a simple environment consisting of roads and green areas. This is where the Duckiebot has to navigate using its camera for lane detection. The solutions are two policy optimization method-based agents. The development was done in an environment with serious limitations but through hyperparameter tuning and other optimizations we achieved increasingly better results. In the following we discuss the DuckieTown framework, environment, the exact building blocks of the agent and how we optimized to use the available computational resources and increase its performance.
 
 ### Összefoglaló
+
+Ez a cikk a sávtartó kihívás megoldását írja le Duckietown környezetben, melyet megerősítéses tanulás (reinforcement learning) segítségével oldottunk meg. Esetünkben Duckietown egy egyszerű környezet, amely utakból és zöld területekből áll. Itt kell a Duckiebotnak a kamerája segítségével navigálnia az adott sávon belül. A megoldás során két optimalizáló algoritmust használtunk fel az ágensek tanítására. A fejlesztés komoly korlátokkal rendelkező környezetben történt, de a hiperparaméterek hangolásával és más optimalizálásokkal egyre jobb eredményeket értünk el. A következőkben a DuckieTown keretrendszert, a környezetet, az ágensek pontos felépítéseit, valamint a rendelkezésre álló számítási erőforrások felhasználását és a teljesítmény növelésének optimalizálását tárgyaljuk.
 
 ## The first step was to create the simulation environment for the autonomous Duckiebot
 We used and existing duckietown simulation environment, gym-duckietown which was written in pure python/OpenGL (Pyglet).

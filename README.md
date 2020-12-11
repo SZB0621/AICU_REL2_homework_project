@@ -5,14 +5,10 @@ Team members:
 - Moró Márton, 
 - Szabó Bence (Final semester on BME BSC, writing final thesis and having final exams soon).
 
-## Documentation
-
-The description of the Project, the Learning algorithms and the optimizer algorithm can be found in the [Documentation](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/Documentation.pdf) file.
-
-Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks 
-(https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
-
 ## Table of Contents
+- [Documentation]()
+ - [Abstract]()
+ - [Összefoglaló]()
 - [Setting up the Environment](https://github.com/SZB0621/AICU_REL2_homework_project#the-first-step-was-to-create-the-simulation-environment-for-the-autonomous-duckiebot)
   - [Requirements for the environment](https://github.com/SZB0621/AICU_REL2_homework_project#the-setup-requires-the-following-components)
   - [Commands for the setup](https://github.com/SZB0621/AICU_REL2_homework_project#commands)
@@ -25,6 +21,19 @@ Our goal is to achive an accurate lane-following algorithom using the baseline a
   - [Chosing the right framework](https://github.com/SZB0621/AICU_REL2_homework_project#chosing-the-right-framework)
   - [Stable baselines solution](https://github.com/SZB0621/AICU_REL2_homework_project#stable-baselines-solution)
   - [What's next?](https://github.com/SZB0621/AICU_REL2_homework_project#whats-next)
+
+## Documentation
+
+The description of the Project, the Learning algorithms and the optimizer algorithm can be found in the [Documentation](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/Documentation.pdf) file.
+
+Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks 
+(https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
+
+### Abstract
+
+This paper describes two solutions to the Duckietown lane following challenge using deep reinforcement learning. In our case Duckietown is a simple environment consisting of roads and green areas. This is where the Duckiebot has to navigate using its camera for lane detection. The solutions are two policy optimization method-based agents. The development was done in an environment with serious limitations but through hyperparameter tuning and other optimizations we achieved increasingly better results. In the following we discuss the DuckieTown framework, environment, the exact building blocks of the agent and how we optimized to use the available computational resources and increase its performance.
+
+### Összefoglaló
 
 ## The first step was to create the simulation environment for the autonomous Duckiebot
 We used and existing duckietown simulation environment, gym-duckietown which was written in pure python/OpenGL (Pyglet).

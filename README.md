@@ -225,6 +225,8 @@ Optuna:
 arXiv:1907.10902 [cs.LG]
 ```
 
-The description of the Project, the Learning algorithms and the optimizer algorithm can be found in the Documentatin.pdf file.
+The description of the Project, the Learning algorithms and the optimizer algorithm can be found in the [Documentation](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/Documentation.pdf) file.
 
-The executable jupyter notebook is stored in thisfile: [TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_0] (https://github.com/SZB0621/AICU_REL2_homework_project#the-setup-requires-the-following-components)
+The executable jupyter notebook is stored in thisfile: [TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_0](https://github.com/SZB0621/AICU_REL2_homework_project#the-setup-requires-the-following-components)
+
+

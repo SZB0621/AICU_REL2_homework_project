@@ -5,7 +5,7 @@ Team members:
 - Moró Márton, 
 - Szabó Bence (Final semester on BME BSC, writing final thesis and having final exams soon).
 
-## Table of Contents
+## Table of Contents 
 - [Documentation](https://github.com/SZB0621/AICU_REL2_homework_project#documentation)
  - [Abstract](https://github.com/SZB0621/AICU_REL2_homework_project#abstract)
  - [Összefoglaló](https://github.com/SZB0621/AICU_REL2_homework_project#összefoglaló)
@@ -21,6 +21,8 @@ Team members:
   - [Chosing the right framework](https://github.com/SZB0621/AICU_REL2_homework_project#chosing-the-right-framework)
   - [Stable baselines solution](https://github.com/SZB0621/AICU_REL2_homework_project#stable-baselines-solution)
   - [What's next?](https://github.com/SZB0621/AICU_REL2_homework_project#whats-next)
+  
+  ![alt text](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/duckwithsantahat.jpg)
 
 ## Documentation
 

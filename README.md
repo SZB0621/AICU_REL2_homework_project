@@ -31,6 +31,13 @@ The description of the Project, the Learning algorithms and the optimizer algori
 Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks 
 (https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
 
+### Presentation video
+
+Check out our brief presentation about the project by clicking on the image below.
+[![IMAGE ALT TEXT HERE](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/image2.png?raw=true)](https://www.youtube.com/watch?v=wF0u8xbrh5M)
+
+
+
 ### Abstract
 
 This paper describes two solutions to the Duckietown lane following challenge using deep reinforcement learning. In our case Duckietown is a simple environment consisting of roads and green areas. This is where the Duckiebot has to navigate using its camera for lane detection. The solutions are two policy optimization method-based agents. The development was done in an environment with serious limitations but through hyperparameter tuning and other optimizations we achieved increasingly better results. In the following we discuss the DuckieTown framework, environment, the exact building blocks of the agent and how we optimized to use the available computational resources and increase its performance.
@@ -253,11 +260,13 @@ The executable jupyter notebook is stored in this file: [TeamAICU_LF_Solution_wi
 
 There are some requirements regarding our jupyter project, all of them is discussed and installed/imported in the code in [TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_0](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/TeamAICU_LF_Solution_with_SB3_and_Optuna_clean_V1_1.ipynb)
 
+There's also an executable python [script](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/hyperparam.py) in this repo which can be used to start hyperparameter optimization.
+
 #### Features in the notebook
 
- - Installingt the requirements
- - importing the requierements
- - Pptimizer and tester functions (i.e.: CallBacks, optimize_ppo/a2c, pruner, pickle, evaluation...)
+ - Installing the requirements
+ - importing the requirements
+ - Optimizer and tester functions (i.e.: CallBacks, optimize_ppo/a2c, pruner, pickle, evaluation...)
  - Models and training policies
  - Plots about the optimizer results, with the given hyperparameters
  

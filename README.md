@@ -7,9 +7,9 @@ Team members:
 
 ## Table of Contents 
 - [Documentation](https://github.com/SZB0621/AICU_REL2_homework_project#documentation)
- - [Presentation video](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/README.md#presentation-video)
- - [Abstract](https://github.com/SZB0621/AICU_REL2_homework_project#abstract)
- - [Összefoglaló](https://github.com/SZB0621/AICU_REL2_homework_project#összefoglaló)
+  - [Presentation video and PPT](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/README.md#presentation-video)
+  - [Abstract](https://github.com/SZB0621/AICU_REL2_homework_project#abstract)
+  - [Összefoglaló](https://github.com/SZB0621/AICU_REL2_homework_project#összefoglaló)
 - [Setting up the Environment](https://github.com/SZB0621/AICU_REL2_homework_project#the-first-step-was-to-create-the-simulation-environment-for-the-autonomous-duckiebot)
   - [Requirements for the environment](https://github.com/SZB0621/AICU_REL2_homework_project#the-setup-requires-the-following-components)
   - [Commands for the setup](https://github.com/SZB0621/AICU_REL2_homework_project#commands)
@@ -32,9 +32,9 @@ The description of the Project, the Learning algorithms and the optimizer algori
 Our goal is to achive an accurate lane-following algorithom using the baseline algorithm provided by Duckietown and AIDO frameworks 
 (https://docs.duckietown.org/DT19/AIDO/out/embodied_rpl.html). 
 
-### Presentation video
+### Presentation video and PPT
 
-Check out our brief presentation about the project by clicking on the image below.
+Check out our brief presentation video about the project by clicking on the image below or by downloading our [PPT](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/AICU_hw.pptx).
 [![IMAGE ALT TEXT HERE](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/youtube_preview.png)](https://youtu.be/mRsvi59sHvk)
 
 

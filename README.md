@@ -35,7 +35,7 @@ Our goal is to achive an accurate lane-following algorithom using the baseline a
 ### Presentation video
 
 Check out our brief presentation about the project by clicking on the image below.
-[![IMAGE ALT TEXT HERE](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/youtube_preview.png)](https://www.youtube.com/watch?v=wF0u8xbrh5M)
+[![IMAGE ALT TEXT HERE](https://github.com/SZB0621/AICU_REL2_homework_project/blob/main/youtube_preview.png)](https://youtu.be/mRsvi59sHvk)
 
 
 
